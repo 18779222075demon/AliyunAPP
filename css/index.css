@@ -1,0 +1,396 @@
+html{
+    font-size: 100px;
+}
+body{
+	margin: 0;
+}
+.navigation{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    align-items:Center;
+    justify-content: space-between;
+    background-color: rgb(27, 26, 27);
+    overflow: hidden;
+}
+.navigation div:first-child{
+    width: 2rem;
+    height: 0.5rem;
+    display: inline-flex;
+	justify-content: center;
+	align-items:center;
+}
+.navigation div:first-child>img{
+    width: 60%;
+    height: 0.3rem;
+}
+
+.navigation div:last-child{
+    width: 3rem;
+    height: 0.5rem;
+    display: inline-flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.carousel{
+    width: 100%;
+    overflow: hidden;
+
+}
+.carousel>div{
+    width: 300%;
+    display: flex;
+	white-space: nowrap;
+	animation: name 6s;
+	animation-iteration-count: infinite;
+}
+.carousel>div>img{
+    width: 100%;
+    height: 5.8rem;
+}
+@keyframes name{
+    0%{
+        margin-left: 0rem;
+    }
+    33%{
+        margin-left: -100%;
+     }
+    66%{
+        margin-left: -200%;
+     }
+    100%{
+        margin-left: 0rem;
+     } 
+   
+}
+.consult{
+    width: 100%;
+    height: 1.5rem;
+    display: flex; 
+    justify-content: space-between;
+    align-items:Center;
+    background-color: #EFEFEF;
+}
+.consult>div{
+    width: 33%;
+    height: 1.5rem;
+    display: flex;
+}
+.consult>div div:first-child{
+    text-align: center;
+    width: 40%;
+    height: 1.5rem;
+}
+.consult>div div:first-child>img{
+    width: 50%;
+    height: 50%;
+}
+.consult>div div:last-child{
+    width: 60%;
+    height: 1.5rem;
+}
+.consult>div>div p:first-child{
+    font-size: 0.3rem;
+}
+.consult>div>div p:last-child{
+    font-size: 0.25rem;
+}
+.classroom{
+    width: 100%;
+    height: 2rem;
+}
+.classroom div:first-child{
+    width: 100%;
+    height: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items:Center;
+    font-size: 0.5rem;
+}
+.classroom div:last-child{
+    width: 100%;
+    height: 0.7rem;
+    font-size: 0.33rem;
+    display: flex;
+    justify-content: center;
+    align-items:Center;
+}
+.plan{
+    width: 100%;
+    height: 5rem;
+}
+.plan>img{
+    width: 100%;
+    height: 100%;
+}
+.plan>p{
+    margin-top: -3.7rem;
+    font-size: 0.75rem;
+    color: white;
+    margin-left: 0.7rem;
+}
+.classroom_one{
+    width: 100%;
+    height: 2rem;
+}
+.classroom_one div:first-child{
+    width: 100%;
+    height: 0.8rem;
+    font-size: 0.6rem;
+    text-align: center;
+
+}
+.classroom_one div:last-child{
+    font-size: 0.3rem;
+    width: 100%;
+    height: 1.2rem;
+    text-align: center;
+}
+.plan_one{
+    width: 100%;
+    height: 5rem;
+    font-size: 0.4rem;
+    text-align: center;
+}
+.plan_one>img{
+    width: 100%;
+    height: 100%;
+}
+.plan_one>p{
+    margin-top: -3rem;
+}
+.content_one{
+    margin-top: 1.5rem;
+    text-align: center;
+    background-color: #F6F7F7;
+}
+.business{
+    width: 100%;
+    height: 1.5rem;
+    font-size: 0.3rem;
+    text-align: center;
+}
+.toolbar{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.toolbar>div{
+    width: 25%;
+    height: 2rem;
+}
+.navigation_bars{
+    width: 100%;
+    height: 11rem;
+}
+.bars{
+    width: 100%;
+    height: 0.7rem;
+    margin-left: 0.3rem;
+    font-size: 0.2rem;
+    background-color: white;
+    margin-top: 0.2rem;
+    text-align: left;
+}
+.bars>img{
+    margin-top: 0.2rem;
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.bars>a{
+    margin-top: 0.2rem;
+    margin-top: 0.2rem;
+}
+.AI{
+    width: 100%;
+    height: 3rem;
+}
+.AI>div:first-child{
+    width: 100%;
+    height: 2rem;
+    color: black;   
+    display: grid;
+    align-content: center;
+    font-size: 0.7rem;
+}
+.AI>div:last-child{
+    width: 100%;
+    height: 1rem;
+    display: flex;
+}
+.AI>div:last-child>p{
+    width: 33%;
+    height: 0.5rem;
+    font-size: 0.3rem;
+}
+.AI>div:last-child p:nth-child(1){
+    font-size: 0.3rem;
+    color: darkgray;
+    border-right:0.01rem solid #000
+}
+.AI>div:last-child p:nth-child(2){
+    font-size: 0.3rem;
+    color: darkgray;
+    border-right:0.01rem solid #000
+}
+.AI>div:last-child p:nth-child(3){
+    font-size: 0.3rem;
+    color: darkgray;
+}
+.AI_carousel{
+    width: 100%;
+    height: 4rem;
+    white-space: nowrap;
+    overflow: auto;
+    
+}
+.AI_carousel>div{
+    width: 260%;
+    height: 4rem;
+    display: flex;
+   
+}
+.AI_carousel>div>div{
+    width: 80%;
+    height: 4rem;
+    margin-left: 0.2rem;
+}
+.AI_carousel>div>div>img{
+    width:100%;
+    height: 4rem;
+}
+
+.AI_carousel>div>div>p{
+    font-size: 0.6rem;
+    margin-top: -3.2rem;
+    color: white;
+}
+.serve{
+    margin-top: 0.2rem;
+    width: 100%;
+    height: 8rem;
+    background-color: #6D8AA2;
+}
+.serve>div:first-child{
+    font-size: 0.7rem;
+    padding-top: 1rem;
+}
+.serve>div:nth-child(2){
+    padding-top: 0.2rem;
+    font-size: 0.4rem;
+    color: white;
+}
+.serve>div:nth-child(3){
+    width: 100%;
+    height: 3.2rem;
+    margin-top: 0.6rem;
+    display: inline-flex;
+}
+.serve>div:nth-child(3)>div{
+    width: 22%;
+    background-color: #92A3B4;
+    margin-left: 0.2rem;
+}
+.serve>div>div{
+    font-size: 0.4rem!important;
+    color: white;  
+}
+.class{
+    width: 100%;
+    height: 2rem;
+    padding-top: 1rem;
+    background-color: white;
+}
+.class>p:first-child{
+    font-size: 0.8rem;
+    color: black;
+}
+.class>p:last-child{
+    font-size: 0.3rem;
+}
+.photo{
+    width: 100%;
+    height: 6rem;
+    background-color: white;
+}
+.photo>img{
+    margin-top: 2.5rem;
+    width: 0.6rem;
+    height: 0.3rem;
+}
+.friend{
+    width: 100%;
+    height: 4rem;
+}
+.friend>div:first-child{
+    width: 100%;
+    height: 2rem;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+.friend>div:last-child{
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    justify-content: space-around;
+}
+.friend>div:last-child>img{
+    width: 20%;
+    height: 0.8rem;
+}
+.combo{
+    width: 100%;
+    height: 4rem;
+    background-color: #00C1DE;
+}
+.combo>p:first-child{
+    font-size: 0.7rem;
+    color: white;
+}
+.combo>p:last-child{
+    width: 3rem;
+    font-size: 0.6rem;
+    margin-left: 3.5rem;
+    color: white;
+    border: 0.01rem solid white;
+}
+.bottom{
+    width: 100%;
+    height: 8rem;
+    background-color: dimgray;
+}
+.bottom>div{
+    width: 100%;
+    margin-top: 0.2rem;
+    display: flex;
+}
+.bottom>div>span{
+    width: 100%;
+    text-align: left;
+    margin-left: 0.4rem;
+    font-size: 0.4rem;
+}
+.bottom>div>span>a{
+   
+    font-size: 0.2rem;
+    margin-top:0.2rem;
+}
+.bottom>div:last-child{
+    width: 100%;
+    display: inline-block;
+}
+.bottom>div:last-child>div:first-child{
+    width: 90%;
+    font-size: 0.3rem;
+    margin-left: 0.5rem;
+    border:  0.01rem solid black;
+}
+.bottom>div:last-child>div:last-child{
+    margin-top: 0.2rem ;
+    text-align: left;
+    margin-left: 0.5rem;
+    font-size: 0.2rem;
+}
